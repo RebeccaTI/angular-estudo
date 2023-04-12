@@ -7,6 +7,8 @@ import { Component, OnInit,Input } from '@angular/core';
 })
 export class ParentDataComponent {
   @Input() name: string= '';
+  @Input() age: number= 26 ;
+  @Input() hobbie: string = 'Jogar basquete';
   @Input() userData!: {email: string, role: string}
 
 }
