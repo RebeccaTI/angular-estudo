@@ -1,6 +1,9 @@
-.title {
-    padding: 15px;
-    text-align: center;
+
+.container {
+    width: 50%;
+    position: relative;
+    top: 50px;
+    left: 25%;
 }
 
 h2 {
@@ -12,4 +15,7 @@ h2 {
       );
       border-radius: 5px;
 }
-
+p {
+    position: relative;
+    top: 10px;
+}

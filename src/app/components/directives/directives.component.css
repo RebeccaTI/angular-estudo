@@ -1,0 +1,32 @@
+h2 {
+    background: linear-gradient(
+        90deg,
+        rgba(184, 84, 232, 1) 0%,
+        rgba(132, 53, 222, 1) 100%
+      );
+    text-align: center;
+      position: relative;
+      border-radius: 5px;
+      top: 75px;
+}
+
+p {
+    
+    text-align: center;
+    position: relative;
+    border-radius: 5px;
+    font-size: 20px;
+    top: 75px;
+}
+
+.small-title {
+
+}
+
+.violet-title {
+    background: linear-gradient(
+        90deg,
+        rgba(184, 84, 232, 1) 0%,
+        rgba(132, 53, 222, 1) 100%
+      );
+}
