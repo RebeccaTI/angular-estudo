@@ -20,7 +20,8 @@ p {
 }
 
 .small-title {
-
+  font-size: 20px;
+  top: 90px;
 }
 
 .violet-title {
@@ -30,3 +31,7 @@ p {
         rgba(132, 53, 222, 1) 100%
       );
 }
+
+  .underline-title {
+    text-decoration: underline;
+  }
