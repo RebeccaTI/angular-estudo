@@ -1,0 +1,9 @@
+<div class="class">
+    <div *ngIf="canShow">Aqui nesse projeto, estou fazendo teste nesse momento de condicional</div>
+    <h2 *ngIf="name === 'Angular'; else nameNotFound">Angular é um dos meus frameworks favoritos para mexer</h2>
+    <ng-template #nameNotFound>
+        <div>
+            <h2>Não foi encontrado conteúdo!</h2>
+        </div>
+    </ng-template>
+</div>

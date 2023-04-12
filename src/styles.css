@@ -14,3 +14,16 @@ p {
     color: black;
     text-align: center;
 }
+
+body {
+    padding-bottom: 500px;
+}
+
+.class {
+    border-bottom: 1px solid purple;
+    padding: 2em;
+    margin-bottom: 1em;
+    position: relative;
+    top: 200px;
+    text-align: center;
+}
