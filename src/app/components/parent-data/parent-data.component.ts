@@ -10,5 +10,6 @@ export class ParentDataComponent {
   @Input() age: number= 26 ;
   @Input() hobbie: string = 'Jogar basquete';
   @Input() userData!: {email: string, role: string}
+  @Input() maritalStatus: string = 'Casada';
 
 }

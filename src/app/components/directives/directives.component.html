@@ -1,4 +1,5 @@
-    <h2  [ngStyle]="{'font-size': size + 'px', 'font-family': font, 'color': color}" >
-        Testando diretiva de estilos
+    <h2 [ngClass]="underline" [ngStyle]="{'font-size': size + 'px', 'font-family': font, 'color': color}" >
+        Formação:
     </h2>
-<p [ngClass]="classes" >Testando diretiva de classe 1</p>
+<p [ngClass]="classes" ><b>Faculdade: </b>{{degree}}</p>
+<p [ngClass]="classes" ><b>Cursos extracurriculares: </b>{{extracurricular}}</p>

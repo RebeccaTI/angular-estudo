@@ -14,6 +14,7 @@ h2 {
         rgba(132, 53, 222, 1) 100%
       );
       border-radius: 5px;
+      color: violet;
 }
 p {
     position: relative;

@@ -19,8 +19,7 @@ export class FirstComponentComponent implements OnInit{
   xp = "Quase três anos em empresa de tecnologia, utilizando diversas stacks"
   role = "Desenvolvedora Jr"
   skill = ["Javascript","Angular", ".Net", "React"]
-  career = "Em uma roda de amigos, todos eram menos eu e aí me mostraram os códigos. Desde então, sou fascinada"
-
+  career = "Em uma roda de amigos, me contaram o quanto era legal ser dev, decidi estudar e me aprofundar. Desde então, sou fascinada e formada"
 
   constructor(){  }
   ngOnInit(): void {
